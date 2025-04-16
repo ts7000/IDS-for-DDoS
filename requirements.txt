@@ -5,6 +5,7 @@ uvicorn[standard]==0.23.2
 tensorflow==2.15.0
 numpy==1.24.3
 pydantic>=1.10.7
+jinja2>=3.1.2
 
 # API enhancements
 python-multipart==0.0.6

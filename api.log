@@ -276,3 +276,20 @@ ValueError: empty range for randrange() (1, 1, 0)
 2025-04-16 21:52:45,786 - network-attack-classifier - ERROR - Error sending message to WebSocket: 
 2025-04-16 21:57:55,803 - network-attack-classifier - ERROR - Error sending message to WebSocket: 
 2025-04-16 22:03:05,821 - network-attack-classifier - ERROR - Error sending message to WebSocket: 
+2025-04-17 04:07:49,688 - network-attack-classifier - INFO - Loading model from model.h5
+2025-04-17 04:07:49,722 - network-attack-classifier - ERROR - Error loading model or scaler: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 46, 1], 'dtype': 'float32', 'sparse': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-04-17 04:11:13,315 - network-attack-classifier - INFO - Loading model from model.h5
+2025-04-17 04:11:13,340 - network-attack-classifier - ERROR - Error loading model or scaler: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 46, 1], 'dtype': 'float32', 'sparse': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-04-17 04:15:03,953 - network-attack-classifier - INFO - Loading model from model.h5
+2025-04-17 04:15:03,977 - network-attack-classifier - ERROR - Error loading model or scaler: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 46, 1], 'dtype': 'float32', 'sparse': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-04-17 04:25:28,768 - network-attack-classifier - INFO - Loading model from model.h5
+2025-04-17 04:25:28,969 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-17 04:25:28,973 - network-attack-classifier - INFO - Model loaded successfully
+2025-04-17 04:25:28,973 - network-attack-classifier - WARNING - Scaler file scaler.json not found. Scaling will be skipped.
+2025-04-17 04:26:55,031 - network-attack-classifier - INFO - Loaded 100 historical records from CSV files
